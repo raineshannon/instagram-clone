@@ -1,0 +1,61 @@
+.header {
+    background-color: black;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 100;
+}
+
+.left {
+    display: flex;
+    align-items: end;
+}
+
+.for-you {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.arrow-button {
+    width: 17px;
+    margin-left: 5px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.like-icon {
+    width: 40px;
+}
+
+.messages-icon-container {
+    position: relative;
+}
+
+.messages-icon {
+    width: 23px;
+    margin-left: 12px;
+}
+
+.messages-notifications {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: red;
+    padding: 1px 3px;
+    border-radius: 50%;
+    top: -5px;
+    right: -6px;
+}
